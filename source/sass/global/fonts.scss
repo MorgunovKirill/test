@@ -31,8 +31,10 @@
 @font-face {
   font-family: "Proxima Nova";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
-  src: url("../fonts/ProximaNova.woff2") format("woff2"),
-    url("../fonts/ProximaNova.woff") format("woff");
+  src: url("../fonts/ProximaNovaBold.woff2") format("woff2"),
+    url("../fonts/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold.ttf") format("truetype");
 }
+
