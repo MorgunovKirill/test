@@ -1,0 +1,18 @@
+.home {
+  text-align: center;
+  margin: 10px 0 46px 0;
+
+  &__link {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    outline: none;
+    color: MidnightBlue;
+    font-size: 22px;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      color: goldenrod;
+    }
+  }
+}

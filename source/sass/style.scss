@@ -1,6 +1,7 @@
 // Global
 //---------------------------------
 
+@import "global/variables";
 @import "global/fonts";
 @import "global/reboot";
 @import "global/utils";
@@ -9,8 +10,14 @@
 // Components
 //---------------------------------
 
-
-
 // Blocks
 //---------------------------------
 
+@import "blocks/home";
+@import "blocks/menu";
+@import "blocks/chat";
+@import "blocks/header";
+@import "blocks/first";
+@import "blocks/second";
+@import "blocks/third";
+@import "blocks/footer";

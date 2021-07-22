@@ -1,11 +1,38 @@
-// @font-face {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-family: "GolosRegular";
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-v27-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v27-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v27-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v27-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v27-latin_cyrillic-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v27-latin_cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
 
-//   font-display: swap;
-//   src:
-//     url("../fonts/GolosRegular.woff2") format("woff2"),
-//     url("../fonts/GolosRegular.woff") format("woff");
-// }
+/* noto-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/noto-sans-v14-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/noto-sans-v14-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-sans-v14-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-sans-v14-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-sans-v14-latin_cyrillic-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-sans-v14-latin_cyrillic-regular.svg#NotoSans") format("svg"); /* Legacy iOS */
+}
 
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ProximaNova.woff2") format("woff2"),
+    url("../fonts/ProximaNova.woff") format("woff");
+}

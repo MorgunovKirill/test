@@ -1,0 +1,23 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    outline: none;
+    color: MidnightBlue;
+
+    &:hover,
+    &:focus {
+      color: goldenrod;
+    }
+  }
+}

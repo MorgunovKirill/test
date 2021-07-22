@@ -1,0 +1,126 @@
+.chat {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  min-height: 757px;
+  max-width: 651px;
+  margin: 0 auto;
+  background-image: url("../img/content/chat-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__messages {
+    border: 1px solid #dbdbdb;
+    overflow-y: scroll;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 41px 15px 10px 15px;
+    list-style: none;
+
+    &:last-of-type {
+      padding-top: 30px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+
+    &--notown {
+      justify-content: flex-end;
+
+      .chat__avatar {
+        order: 1;
+        margin-right: 0;
+        margin-left: 18px;
+      }
+
+      .chat__message {
+        &::before {
+          content: "";
+          position: absolute;
+          top: 7px;
+          left: inherit;
+          right: -7px;
+          background-image: url("../../img/svg/icon-triangle.svg");
+          width: 15px;
+          height: 8px;
+        }
+      }
+    }
+  }
+
+  &__avatar {
+    flex-shrink: 0;
+    margin-right: 11px;
+  }
+
+  &__message {
+    position: relative;
+    margin: 0;
+    padding: 15px 15px 7px 15px;
+    background: #f1f3f5;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 470px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: -7px;
+      background-image: url("../../img/svg/icon-triangle.svg");
+      width: 15px;
+      height: 8px;
+    }
+  }
+
+  &__date {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__send {
+    padding: 20px 41px 30px 20px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    textarea {
+      resize: none;
+      height: 129px;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-family: "Noto Sans", "Arial", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #696969;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+    }
+  }
+
+  &__btn {
+    border: none;
+    background: #0f54b9;
+    box-shadow: 0 4px 6px rgba(15, 84, 185, 0.3);
+    border-radius: 21px;
+
+    font-family: "Proxima Nova", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    align-self: flex-start;
+    padding: 10px 22px 7px 22px;
+    cursor: pointer;
+  }
+}
